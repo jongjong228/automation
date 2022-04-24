@@ -1,0 +1,36 @@
+{
+  "tables": {
+    "test": "test",
+    "session": "session",
+    "author": "author",
+    "status": "status",
+    "project": "project"
+  },
+  "test": {
+    "id": "id",
+    "name": "name",
+    "project": "project_id",
+    "author": "author_id",
+    "session": "session_id",
+    "status": "status_id",
+    "methodName": "method_name",
+    "startTime": "start_time",
+    "endTime": "end_time",
+    "browser": "browser",
+    "env": "env"
+  },
+  "author": {
+    "login": "login",
+    "email": "email"
+  },
+  "session": {
+    "key": "session_key",
+    "buildNumber": "build_number",
+    "createdTime": "created_time"
+  },
+  "status": {
+    "passed": "PASSED",
+    "skipped": "SKIPPED",
+    "failed": "FAILED"
+  }
+}

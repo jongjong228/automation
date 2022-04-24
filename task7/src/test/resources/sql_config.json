@@ -1,0 +1,8 @@
+{
+  "dataBaseURL": "jdbc:mysql://localhost/",
+  "connectorPath": "com.mysql.cj.jdbc.Driver",
+  "password": "",
+  "dateFormat": "yyyy-MM-dd hh:mm:ss",
+  "dataBaseName": "union_reporting",
+  "dataBaseUName": "root"
+}

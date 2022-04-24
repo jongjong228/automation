@@ -1,0 +1,36 @@
+{
+  "currentVersion": "5.131",
+  "baseAddress": "https://api.vk.com/method/",
+  "fields": {
+    "accessToken": "access_token",
+    "version": "v",
+    "ownerId": "owner_id",
+    "userId": "user_id",
+    "message": "message",
+    "type": "type",
+    "postId": "post_id",
+    "itemId": "item_id",
+    "albumId": "album_id",
+    "server": "server",
+    "photosList": "photos_list",
+    "hash": "hash",
+    "aid": "aid",
+    "attachment": "attachments"
+  },
+  "methods": {
+    "post": "post",
+    "edit": "edit",
+    "delete": "delete",
+    "getServer": "getUploadServer",
+    "savePhoto": "save",
+    "createComment": "createComment",
+    "isLiked": "isLiked"
+  },
+  "labels": {
+    "photo": "photo",
+    "post": "post",
+    "wall": "wall",
+    "likes": "likes",
+    "photos": "photos"
+  }
+}

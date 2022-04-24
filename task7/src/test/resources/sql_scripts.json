@@ -1,0 +1,18 @@
+{
+  "selects": {
+    "author": "SELECT id from author WHERE name=?",
+    "status": "SELECT id from status WHERE name=?",
+    "project": "SELECT id from project WHERE name=?",
+    "session": "SELECT id from session WHERE session_key=?",
+    "updatedTests": "SELECT * from test ORDER BY id DESC LIMIT ?",
+    "containsTests": "SELECT * from test WHERE id%?=0 LIMIT ?"
+  },
+  "inserts": {
+    "author": "INSERT author(name,login,email) VALUES ",
+    "project": "INSERT project(name) VALUES ",
+    "session": "INSERT session(session_key,created_time,build_number) VALUES ",
+    "tests": "INSERT test(name,method_name,env,browser,start_time,end_time,session_id,status_id,author_id,project_id) VALUES "
+  },
+  "updateTests": "UPDATE test SET status_id=? WHERE id=?",
+  "deleteTests": "DELETE from test order by id desc limit ?"
+}

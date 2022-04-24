@@ -1,0 +1,7 @@
+{
+  "baseURL": "https://vk.com/",
+  "randomLength": "10",
+  "minLength": "5",
+  "waitDurationSeconds": "2",
+  "waitDurationMillis": "10"
+}

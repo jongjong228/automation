@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="task7">
+    <test name="VK UI AND API TEST">
+        <classes>
+            <class name="tests.VkApiTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="SQL RECORDS TEST">
+        <classes>
+            <class name="tests.SQLAddRecordTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
