@@ -1,0 +1,15 @@
+{
+  "timerValue" : "00:00:00",
+  "pathToFile" : "D:\\avatar.png",
+  "numOfInterests" : 20,
+  "selectAllIndex" : 17,
+  "numOfTLDomains" : 10,
+  "lengthOfDomain" : 2,
+  "lengthOfEmail" : 10,
+  "numOfNumbers" : 9,
+  "numOfUppersEmail" : 1,
+  "minNumOfCharacters" : 8,
+  "numOfDopCharacters" : 5,
+  "numOfRuCharacters" : 3
+
+}
