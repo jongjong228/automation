@@ -1,0 +1,16 @@
+{
+  "baseURL": "https://jsonplaceholder.typicode.com",
+  "okCode": 200,
+  "failedCode": 404,
+  "secondUserId": 10,
+  "secondId": 99,
+  "jsonPath": "Content-Type",
+  "contentTypeValue": "application/json; charset=utf-8",
+  "userIdPath": "userId",
+  "bodyPath": "body",
+  "clearString": "",
+  "createdCode": 201,
+  "fourthCaseUserId": 1,
+  "randomLength": 10,
+  "searchUserId": 5
+}
